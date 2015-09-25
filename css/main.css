@@ -1,0 +1,26 @@
+
+
+.navbar {
+	position: fixed;
+}
+
+.carousel {
+	height: 475px;
+}
+
+h1 {
+	color: black;
+}
+
+/*.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+}*/
+
+.thumbnail img {
+	height: 275px;
+
+}

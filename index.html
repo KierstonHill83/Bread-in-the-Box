@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>Bread in the Box</title>
+    
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <!-- sample angular code -->
+    <!-- <div class="container">
+      <div ng-controller="myController">
+        <p>{{ greeting }}</p>
+      </div>
+    </div> -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Business Casual</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <br><br><br><br>
+
+    <div class="container">
+      <!-- carousel -->
+      <div id="carousel-example-generic" class="carousel slide hidden-sm hidden-xs" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="..." alt="..." data-holder-rendered="true" class="carousel-image">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Text</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="..." alt="..." data-holder-rendered="true">
+            <div class="carousel-caption">
+              <h1>Text</h1>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="..." alt="..." data-holder-rendered="true">
+            <div class="carousel-caption">
+              <h1>Text</h1>
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div> <!-- end carousel -->
+    </div>
+
+    <!-- modules -->
+    <a name="services"></a>
+      <div class="content-section">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-sm-6">
+              <!-- <hr class="section-heading-spacer"> -->
+              <div class="clearfix"></div>
+              <h2 class="section-heading">Some Text</h2>
+            </div>
+          </div>
+          <!-- practice blurb -->
+          <div class="row">
+            <div class="col-sm-6 col-md-4 center">
+              <div class="thumbnail">
+                <img class="img-responsive" src="/img/studying.jpg" alt="Books">
+                <div class="caption">
+                  <h3>No Artificial Ingredients</h3>
+                  <p>To aid with the delay many of the bread manufactures use preservatives to help their breads stay fresh during shipping, sitting on the shelf in the store and then sitting in your pantry. They also use dough conditioners to make the baking process easier on their production lines. Since we deliver directly to you our breads don’t need any of those unnecessary ingredients. Our bread does not have high fructose corn syrup, dough conditioners, preservatives, or artificial colors or flavors.</p>
+                </div>
+              </div>
+            </div>
+            <!-- challenge blurb-->
+            <div class="col-sm-6 col-md-4 center">
+              <div class="thumbnail">
+                <img class="img-responsive" src="/img/words.jpg" alt="Scrabble pieces">
+                <div class="caption">
+                  <h3>Fresh</h3>
+                  <p>Our goal is to never sell our products in the large box stores. Why is that? Because freshness is one of our core values. There is nothing better than the smell of fresh homemade bread coming out of the oven. Breads on the shelf at the store are on average a week old. We are cutting out the middle man to deliver you bread within 24 hours of being baked.</p>
+                </div>
+              </div>
+            </div>
+            <!-- progress blurb -->
+            <div class="col-sm-6 col-md-4 center">
+              <div class="thumbnail">
+                <img class="img-responsive" src="/img/progress.jpg" alt="Graph">
+                <div class="caption">
+                  <h3>Quality</h3>
+                  <p>We only use the best, freshest ingredients in our bread. You have to start there or the end product will never be great. We carry that mantle of quality through the entire production process starting with the ingredients and ending with the delivery to a box on your door step. You wouldn’t cut corners with your food and neither will we!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/angular.js"></script>
+  </body>
+</html>
